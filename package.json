@@ -1,0 +1,13 @@
+{
+  "name": "healthtech-appointment-logs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/appointment_job.ts",
+    "test": "node --experimental-strip-types src/appointment_job.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
